@@ -1,0 +1,19 @@
+{
+  "name": "apiresttenismysql",
+  "version": "1.0.0",
+  "description": "apirest for sneakers on mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uriel Brenis Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "sequelize": "^5.12.3",
+    "mysql2": "^2.2.5"
+  }
+  
+}
