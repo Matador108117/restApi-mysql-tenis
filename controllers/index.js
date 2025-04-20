@@ -65,6 +65,8 @@ const updateSneaker = async (req, res) => {
                     sneaker.brand = req.body.brand;
                     sneaker.size = req.body.size;
                     sneaker.image = req.body.image;
+                    sneaker.color = req.body.color;
+                    sneaker.sex = req.body.sex;
                     await sneaker.save();
             }
             else {
